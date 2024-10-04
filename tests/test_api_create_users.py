@@ -2,7 +2,7 @@ import allure
 import requests
 
 from methods import Methods
-from user_data import TextMessages, Urls
+from data import TextMessages, Urls
 
 
 class TestCreateUser:

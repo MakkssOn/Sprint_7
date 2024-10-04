@@ -2,7 +2,7 @@ import pytest
 import requests
 
 from methods import Methods
-from user_data import Urls
+from data import Urls
 
 
 @pytest.fixture(scope='function')

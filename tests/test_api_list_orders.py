@@ -1,7 +1,7 @@
 import allure
 import requests
 
-from user_data import Urls
+from data import Urls
 
 
 class TestListOrders:
