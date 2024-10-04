@@ -3,7 +3,9 @@ class TextMessages:
     LOGIN_BUSY = "Этот логин уже используется. Попробуйте другой."
     INSUFFICIENT_DATA = "Недостаточно данных для создания учетной записи"
 
-    person_data = [
+
+class OrderData:
+    orders = [
         ['Тёма', 'Топазов', 'Советский проспект, 16', '7', '+79005673465', '5', '2024-09-20',
          'Поскорее бы', "BLACK"],
         ['Lil', 'Peepers', 'Ул. Карла Маркса', '4', '+79954542288', '7', '2024-09-20',
@@ -21,6 +23,3 @@ class Urls:
     RECEIVING_ORDERS = 'https://qa-scooter.praktikum-services.ru/api/v1/orders'
     LOGIN = 'https://qa-scooter.praktikum-services.ru/api/v1/courier/login'
     DELETE_COURIER = 'https://qa-scooter.praktikum-services.ru/api/v1/courier/login'
-
-
-
